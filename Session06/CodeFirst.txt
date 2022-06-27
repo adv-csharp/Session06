@@ -1,0 +1,25 @@
+Steps
+    1. install packages 
+		dotnet tool install --global dotnet-ef
+		dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+		dotnet add package Microsoft.EntityFrameworkCore.Design
+		
+    2. DB Context : DbContext
+    3. Connection String  
+		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("data source=.;initial catalog=140102;integrated security=True;multipleactiveresultsets=True;application name=MyAPP");
+            base.OnConfiguring(optionsBuilder);
+
+        }
+
+    4. 🌟 POCOs (Plain Old CLR Object) (CLR: Common Language Runtime)
+    5. 🌟 Add POCO to DbContext
+    6. 🌟 Add Migration 
+		dotnet ef migrations add InitialCreate
+    7. 🌟 Update Database
+		dotnet ef database update
+		
+		
+	Revert
+		dotnet ef database update <previous-migration-name>
