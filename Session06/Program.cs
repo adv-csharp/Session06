@@ -2,6 +2,7 @@ namespace Session06
 {
     internal static class Program
     {
+        static int Sample;
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
