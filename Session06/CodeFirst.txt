@@ -23,3 +23,8 @@ Steps
 		
 	Revert
 		dotnet ef database update <previous-migration-name>
+
+
+	Config
+		1. Attribute based
+		2. Fluent API
