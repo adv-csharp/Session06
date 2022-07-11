@@ -1,15 +1,10 @@
 ﻿using Session06.DataModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+//afsharmanesh
 namespace Session06
 {
-    
+
     public class Repository
-        
+
     {
         AppDbContext db;
 
@@ -171,5 +166,5 @@ namespace Session06
         }
     }
 
-  
+
 }
