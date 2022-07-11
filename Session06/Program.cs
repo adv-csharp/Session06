@@ -9,6 +9,7 @@ namespace Session06
         /// <summary>
         ///  توضیحات فارسی.
         ///  
+        ///  /// step 2
         /// </summary>
         [STAThread]
         static void Main()
