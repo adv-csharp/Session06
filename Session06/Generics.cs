@@ -12,6 +12,7 @@ namespace Session06
         public void getXyz<T>(T a, T b)
         {
             //
+            //Bitarafn
         }
         public Generics()
         {
