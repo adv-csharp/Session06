@@ -1,4 +1,4 @@
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Serilog;
 
 namespace Session06
@@ -7,7 +7,7 @@ namespace Session06
     {
         public static IConfiguration Configuration;
         /// <summary>
-        ///  The main entry point for the application.
+        ///  توضیحات فارسی.
         /// </summary>
         [STAThread]
         static void Main()
