@@ -8,6 +8,7 @@ namespace Session06
         public static IConfiguration Configuration;
         /// <summary>
         ///  توضیحات فارسی.
+        ///  
         ///  /// step 2
         /// </summary>
         [STAThread]
