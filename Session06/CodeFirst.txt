@@ -23,3 +23,16 @@ Steps
 		
 	Revert
 		dotnet ef database update <previous-migration-name>
+
+
+	Config
+		1. Attribute based
+		2. Fluent API
+			//
+
+
+	SQL SCRIPT
+	dotnet ef migrations script -o file.sqls
+
+
+	https://stackoverflow.com/questions/65669920/adding-configuration-to-windows-forms-on-net-5-0
